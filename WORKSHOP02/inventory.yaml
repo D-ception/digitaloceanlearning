@@ -1,0 +1,10 @@
+  all:
+    vars:
+      ansible_user: root
+      ansible_connection: ssh
+      ansible_ssh_private_key_file: /home/fred/id_rsa
+      codeserver_password: changeit
+      codeserver_domain: code-server.152.42.218.253.nip.io
+    hosts:
+      droplet-day02:
+        ansible_host: 152.42.218.253
