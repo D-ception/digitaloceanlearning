@@ -1,5 +1,4 @@
 variable DO_token {
-    
     sensitive = true
 }
 
